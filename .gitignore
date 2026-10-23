@@ -1,0 +1,44 @@
+# --- Python / venv / caches ---
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Large / generated artifacts (exceed GitHub 100MB limit or regenerable) ---
+models/
+dist/
+build/
+tools/
+*.gguf
+
+# --- Local NAI runtime state (per-machine) ---
+nai_history/
+nai_allowed.txt
+nai_goal.txt
+nai_rules.txt
+nai_isolation.txt
+nai_retry.txt
+nai_big_manifest.txt
+*.log
+
+# --- Selftest / probe artifacts ---
+selftest_result.json
+selftest_result.json)
+_selftest_*.txt
+_rich_probe.log
+demo.txt
+
+# --- Machine-specific config ---
+mcp.json
+
+# --- Playwright / browser ---
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+desktop.ini

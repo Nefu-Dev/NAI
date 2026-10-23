@@ -1,0 +1,10 @@
+# NAI build/runtime dependencies (torch is installed separately, CPU index).
+transformers
+peft
+accelerate
+safetensors
+gguf
+pillow
+psutil
+pyinstaller
+llama-cpp-python
